@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foxflix</title>
+    <meta name="title" content="Foxflix">
+    <meta name="description" content="Foxflix is a free movie browser for the  Internet">
+    
+    <link rel="shortcut icon" href="./Assets/IMG/icons8-clapperboard-50.png" type="image/webp" sizes="114x114">
+    <link rel="stylesheet" href="./Assets/css styles/styles.css">
+    <script src="./Assets/JS/global.js" defer></script>
+    <script src="./Assets/JS/index.js" type="module"></script>
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <a href="./index.html">
+            <img src="./Assets/IMG/icons8-clapperboard-50.png" width="40" height="32" alt="Foxflix home">
+        </a>
+
+        <div class="search-box" search-box>
+            <div class="search-wrapper" search-wrapper>
+                <input type="text" name="search" aria-label="Search movies" 
+                placeholder="Search any movies..." class="search-field" autocomplete="off" search-field>
+
+                <img src="./Assets/IMG/icons8-search-50.png" width="24" height="24" alt="search" class="leading-icon">
+            </div>
+
+            <button class="search-btn" search-toggler>
+                <img src="./Assets/IMG/icons8-close-50.png" width="24" height="24" alt="close search bar">
+            </button>
+        </div>
+
+
+        <button class="search-btn" search-toggler menu-close>
+            <img src="./Assets/IMG/icons8-search-50.png" width="24" height="24" alt="open search box">
+        </button>
+
+        <button class="menu-btn" menu-btn menu-toggler>
+            <img src="./Assets/IMG/icons8-menu-50.png" width="24" height="24" alt="open menu" class="menu">
+            <img src="./Assets/IMG/icons8-cancel-50.png" width="24" height="24" alt="close menu" class="close">
+        </button>
+    </header>
+
+    <!-- Sidebar -->
+    <nav class="sidebar" sidebar></nav>
+    <div class="overlay" overlay menu-toggler></div>
+
+
+    <article class="container" page-content></article>
+</body>
+</html>
