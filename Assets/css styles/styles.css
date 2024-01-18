@@ -338,6 +338,17 @@
     margin-inline-end: auto;
   }
 
+  header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+
+  .header a span {
+    font-size: var(--fs-title-lg);
+  }
+
   .search-btn,
   .menu-btn {padding: 12px;}
 
@@ -739,7 +750,7 @@
     max-width: 500px;
   }
 
-  .slider-control { left: calc(80% - 400px);}
+  .slider-control { left: calc(85% - 300px);}
 
 
   /* DETAIL PAGE */
